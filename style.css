@@ -46,6 +46,14 @@
 .parColor {
     color:#344563
 }
+
+.cardHeader {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* End of Reusable Classes */
 .heading-1 {
     
     margin-top: 96px;
@@ -76,3 +84,26 @@
     height: 50px;
 }
 
+.cards {
+    display: grid;
+    margin: 0 24px;
+}
+
+.card {
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+}
+
+.card-heading {
+    margin-top: 12px;
+}
+
+.card-top-ul {
+    display: flex;
+    margin-right: 16px;
+}
