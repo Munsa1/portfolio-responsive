@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #E5E5E5;
+}
+
 .headerContainer {
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,7 @@
     background-image: url('images/Ellipse\ 11.svg'), url('images/Ellipse\ 5.svg'), url('images/Rectangle\ 7.svg'), url('images/Rectangle\ 4.svg'), url('images/Ellipse\ 3.svg'), url('images/Ellipse\ 12.svg'), url('images/Ellipse\ 13.svg'), url('images/Ellipse\ 4.svg');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: left 8%, 47% 16%, 49% 14.5%, right top, 100% 8%, 90% 85%, 90% 89%, 79% 100%;
+    border-bottom-left-radius: 50px;
 }
 
 .sectionContainer {
@@ -35,6 +40,10 @@
     flex-direction: column;
 }
 /* Reusable Classes*/
+.bg-color {
+    background-color: #fff;
+}
+
 .headerColor {
     color: #172B4D;
 }
@@ -51,6 +60,10 @@
     font-size: 32px;
     font-weight: 700;
     font-style: normal;
+}
+
+.topMargin {
+    top: 26px;
 }
 
 /* End of Reusable Classes */
@@ -99,8 +112,11 @@
     justify-content: center;
     background: #FFFFFF;
     border-radius: 16px;
+    bottom: 30px;
 }
-
+.card-2 {
+    margin-top: 30px;
+}
 .card-heading {
     margin-top: 12px;
 }
