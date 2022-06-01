@@ -66,6 +66,10 @@ body {
     top: 26px;
 }
 
+.iconSize {
+    height: 100px;
+}
+
 /* End of Reusable Classes */
 .heading-1 {
     
@@ -174,4 +178,23 @@ body {
     margin-top: 18px;
     width: 40%;
 
+}
+
+.about-myself {
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+}
+
+.about-heading {
+    margin-top: 100px;
+    margin-bottom: 12px;
+}
+
+.resume-btn {
+    margin-bottom: 24px;
+}
+
+.lower-icons {
+    height: 10;
 }
