@@ -106,13 +106,14 @@ body {
 }
 
 .card {
-    margin: 16px 16px;
+    /* margin: 16px 16px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background: #FFFFFF;
     border-radius: 16px;
-    bottom: 30px;
+    padding: 16px;
+    margin-bottom: 100px;
 }
 .card-2 {
     margin-top: 30px;
@@ -165,11 +166,12 @@ body {
 
 .card-btn {
     color: #396DF2;
-    padding: 16px;
+    font-weight: bolder;
+    padding: 10px;
     background: #FFFFFF;
     border: 1px solid #396DF2;;
-    border-radius: 16px;
+    border-radius: 8px;
     margin-top: 18px;
-    width: 50%;
+    width: 40%;
 
 }
