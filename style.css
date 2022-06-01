@@ -66,10 +66,6 @@ body {
     top: 26px;
 }
 
-.iconSize {
-    height: 100px;
-}
-
 /* End of Reusable Classes */
 .heading-1 {
     
@@ -98,7 +94,6 @@ body {
 .icons li {
     margin-right: 20px;
     color: #505F79;
-    height: 50px;
 }
 
 .cards {
@@ -110,7 +105,6 @@ body {
 }
 
 .card {
-    /* margin: 16px 16px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,6 +183,7 @@ body {
 .about-heading {
     margin-top: 100px;
     margin-bottom: 12px;
+    font-size: 40px;
 }
 
 .resume-btn {
