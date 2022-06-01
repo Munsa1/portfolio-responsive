@@ -87,15 +87,17 @@
 .cards {
     display: grid;
     margin: 0 24px;
+    margin-top: 80px;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
 }
 
 .card {
-    margin: 0 16px;
+    margin: 16px 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background: #FFFFFF;
-    border: 1px solid #DFE1E6;
     border-radius: 16px;
 }
 
@@ -105,5 +107,53 @@
 
 .card-top-ul {
     display: flex;
-    margin-right: 16px;
+    align-items: center;
+    justify-content: start;
+}
+
+.circle-imgs {
+    height: 55%;
+    margin-right: 12px;
+    margin-left: 12px;   
+}
+
+.card-par {
+    margin-top: 12px;
+}
+
+.card-top-ul-heading1 {
+    font-weight: 600;
+    color: #344563;
+    font-size: 13px;
+}
+
+.card-top-ul-heading2 {
+    color: #7A869A;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.card-lower-ul {
+    display: flex;
+    margin-top: 12px;
+
+}
+
+.card-lower-ul-heading1 {
+    border-radius: 8px;
+    background-color: #EBEBFF;
+    color: #6070FF;
+    margin-right: 8px;
+    padding: 4px 12px;
+}
+
+.card-btn {
+    color: #396DF2;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #396DF2;;
+    border-radius: 16px;
+    margin-top: 18px;
+    width: 50%;
+
 }
