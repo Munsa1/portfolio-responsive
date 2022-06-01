@@ -28,6 +28,10 @@ body {
   font-size: 18px;
 }
 
+.menu-bar {
+  color: #acb7c3;
+}
+
 .main-section {
   background-image: url('images/Ellipse\ 11.svg'), url('images/Ellipse\ 5.svg'), url('images/Rectangle\ 7.svg'), url('images/Rectangle\ 4.svg'), url('images/Ellipse\ 3.svg'), url('images/Ellipse\ 12.svg'), url('images/Ellipse\ 13.svg'), url('images/Ellipse\ 4.svg');
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
@@ -90,7 +94,7 @@ body {
   margin-bottom: 12px;
 }
 
-.icons li {
+.icons a {
   margin-right: 20px;
   color: #505f79;
 }
